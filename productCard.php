@@ -16,6 +16,17 @@
             <button class=lens-btn><img src="Images/lens.svg" alt=""></button>
         </div>
     </div>
+
+    <div class="category">
+        <ul>
+            <li>Appitizer</li>
+            <li>Snacks</li>
+            <li>Desert</li>
+            <li>Drinks</li>
+            <li>Main Course</li>
+        </ul>
+    </div>
+
     <div class="food-item-container">
         <div class="food-item">
             <img src="https://images.foodmandu.com//Images/Vendor/1551/OriginalSize/web_291222053433.listing-mari-cafe.jpg" alt="">

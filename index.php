@@ -26,6 +26,8 @@
             </div>
     </header>
 
+ 
+
 		<main class="main">
 			<section>
             <?php include('productCard.php'); ?>
