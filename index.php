@@ -11,27 +11,27 @@
 </head>
 <body>
     <header class="header-container">
+        <div class="header-wrapper">
         <div class="logo">
             <span>Ramailo Foods</span>
         </div>
-        <nav>
+        <!-- <nav>
             <ul class="nav-container">
                 <li class="nav-items"><a href="#">Home</a></li>
                 <li class="nav-items"><a href="#">Contact us</a></li>
                 <li class="nav-items"><a href="#">About us</a></li>
             </ul>
-        </nav>
+        </nav> -->
 			<button class="login-btn">Login</button>
+            </div>
     </header>
 
-		<main>
+		<main class="main">
 			<section>
-				<h1></h1>
+            <?php include('productCard.php'); ?>
 			</section>
 		</main>
-    <?php
-        echo "Hello";
-    ?>
+        <?php include('footer.php'); ?>
     <script src="script.js"></script>
 </body>
 </html>
